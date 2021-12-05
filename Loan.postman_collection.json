@@ -1,0 +1,127 @@
+{
+	"info": {
+		"_postman_id": "c9c9bb51-5702-406c-b4c2-01f7b7ae85d8",
+		"name": "Loan",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Add Loan",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"amount\": 10\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:7070/v1/loan/add",
+					"host": [
+						"localhost"
+					],
+					"port": "7070",
+					"path": [
+						"v1",
+						"loan",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Loan",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:7070/v1/loan",
+					"host": [
+						"localhost"
+					],
+					"port": "7070",
+					"path": [
+						"v1",
+						"loan"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Loan",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": 2,\n    \"amount\": 20,\n    \"version\": 1\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:7070/v1/loan/update",
+					"host": [
+						"localhost"
+					],
+					"port": "7070",
+					"path": [
+						"v1",
+						"loan",
+						"update"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Approval Loan",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": 2,\n    \"state\": \"success\",\n    \"version\": 2\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:7070/v1/loan/approval",
+					"host": [
+						"localhost"
+					],
+					"port": "7070",
+					"path": [
+						"v1",
+						"loan",
+						"approval"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
