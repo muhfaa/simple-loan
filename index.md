@@ -109,7 +109,3 @@ URL: localhost:7070/v1/loan/update
 ```
 
 
-
----
-[Back to top](#loan)
-> Made with &#9829; by [thedevsaddam](https://github.com/thedevsaddam) | Generated at: 2021-12-05 15:28:52 by [docgen](https://github.com/thedevsaddam/docgen)
