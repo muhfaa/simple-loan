@@ -6,13 +6,13 @@ In this application I use the Hexagonal architecture with Golang as the programm
 
 
 # API
-[Simple Loan API](https://github.com/muhfaa/Game-Currency/blob/main/index.md)
+[Simple Loan API](https://github.com/muhfaa/simple-loan/blob/main/index.md)
 
 # SQL Query
-[SQl query to create table]()
+[SQl query to create table](https://github.com/muhfaa/simple-loan/blob/main/loan-database-init.sql)
 
 # Postman collaction
-[Postman](https://github.com/muhfaa/Game-Currency/blob/1482240a72326f4c2c778287a37e0d9513aabf61/ATTN.postman_collection.json)
+[Postman](https://github.com/muhfaa/simple-loan/blob/main/Loan.postman_collection.json)
 
 ## Requirement
 
@@ -31,4 +31,4 @@ For config file i use `json`
 `docker-compose up --build`
 
 - After that open [url](http://localhost:8090/?server=golang-loan-db&username=root&db=loan-db) and `password: root`
-- Next execute this [SQl query to create table]() in that SQL query
+- Next execute this [SQl query to create table](https://github.com/muhfaa/simple-loan/blob/main/loan-database-init.sql) in that SQL query
