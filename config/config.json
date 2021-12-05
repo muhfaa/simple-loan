@@ -1,0 +1,20 @@
+{
+    "backend_port": 7070,
+    "mongodb": {
+        "dbdriver": "mongodb",
+        "dbname": "loan-db",
+        "dbaddress": "localhost",
+        "dbport": "27017",
+        "dbusername": "",
+        "dbpassword": ""
+    },
+    "mysql": {
+        "host": "golang-loan-db",
+        "port": "3306",
+        "user": "root",
+        "password": "root",
+        "name": "loan-db",
+        "max_idle_con": 5,
+        "max_open_con": 10
+    }
+}
